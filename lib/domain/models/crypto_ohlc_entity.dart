@@ -1,0 +1,10 @@
+class CryptoOHLCEntity{
+  final int time;
+  final double open;
+  final double high;
+  final double low;
+  final double close;
+
+  CryptoOHLCEntity({required this.time,required this.open,required this.high,required this.low,required this.close});
+
+}
